@@ -1,13 +1,16 @@
 import 'package:shared_preferences/shared_preferences.dart';
 
 /*
-  Recordar instalar el paquete de:
+  Remember install the package:
+
     shared_preferences:
+  Tambien:
   Inicializar en el main
+    WidgetsFlutterBinding.ensureInitialized(); 
     final prefs = new PreferenciasUsuario();
     await prefs.initPrefs();
     
-    Recuerden que el main() debe de ser async {...
+    Remember the  main() should be async {...
 */
 
 class PreferenciasUsuario {
